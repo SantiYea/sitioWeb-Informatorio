@@ -1,0 +1,45 @@
+.laWea {
+    width: 1300px; height: 200px;
+
+    background-color: lightblue;
+    display: flex;
+}
+
+.links {
+    display: flex;
+    align-items: flex-start;
+    list-style: none;
+}
+
+.links li a{
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.articulos {
+    width: 1300px; height: 700px;
+    background-color: cadetblue;
+    display: flex;
+    margin-top: 20px;
+}
+
+.a {
+    flex: 2; padding: 20px;
+    text-decoration: underline;
+}
+
+.bfIcon {
+    width: 150px; height: 100px;
+    align-self: center;
+}
+
+#tonto {
+    width: 100px; height: 100px;
+    align-self:flex-end
+}
+
+#eode {
+    width: 100px; height: 100px;
+}
